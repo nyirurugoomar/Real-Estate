@@ -3,12 +3,12 @@ import logo from '../assets/LOGO.png'
 
 function Header() {
   return (
-    <div className='w-full h-full '>
+    <div className='w-full h-full bg-white '>
        <div className='flex  justify-evenly '>
        <div className='w-3/10'>
-         <img src={logo} className='h-[100px] w-[100px]' alt="" />
+         <img src={logo} className='h-[100px]  w-[100px] ' alt="" />
        </div>
-       <div className='flex gap-8 text-black mt-10 w-3/5 '>
+       <div className='flex md:gap-8 gap-2 text-black mt-10 md:w-3/5 w-3/5 '>
         <ul>Home</ul>
         <ul>Our Services</ul>
         <ul>Our Portfolio</ul>
