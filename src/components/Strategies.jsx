@@ -16,7 +16,7 @@ function Strategies() {
               </div>
               <h1 className='text-xl font-bold mb-4'>{strategy.title}</h1>
               <p className='text-gray-700 font-normal'>{strategy.description}</p>
-              <p className=' mt-4 text-[#69ABE0] text-[20px] font-rajdhani font-bold'>Read me...</p>
+              <p className=' mt-4 text-[#69ABE0] text-[14px] font-rajdhani font-bold'>Read me...</p>
             </div>
           </div>
         ))}

@@ -2,17 +2,20 @@
     {
       "icon":"src/assets/icon1.svg",
       "title": "Joint Ventures",
-      "description": "Partner with us to enhance your real estate investments and achieve greater returns through collaborative projects."
+      "description": "Partner with us to enhance your real estate investments and achieve greater returns through collaborative projects.",
+      "link":""
     },
     {
       "icon":"src/assets/icon2.svg",
       "title": "Private Lending",
-      "description": "We offer investment opportunities for private lending, providing funding to businesses or individuals in need of financing..."
+      "description": "We offer investment opportunities for private lending, providing funding to businesses or individuals in need of financing...",
+      "link":""
     },
     { 
       "icon":"src/assets/icon3.svg",  
       "title": "Equity Investments",
-      "description": "Invest in real estate through our secure structures as shareholders or limited partners, gaining potential appreciation and income..."
+      "description": "Invest in real estate through our secure structures as shareholders or limited partners, gaining potential appreciation and income...",
+      "link":""
     }
   ]
   
