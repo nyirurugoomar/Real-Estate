@@ -28,11 +28,11 @@ function SlidePage() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden mt-10">
+    <div className="relative w-full md:h-screen h-[273px] overflow-hidden mt-10 mx-2 ">
       {images.map((image, index) => (
         <div
           key={index}
-          className={`absolute w-full h-full transition-opacity duration-1000 ease-in-out ${
+          className={`absolute w-full md:h-full h-[200px]  transition-opacity duration-1000 ease-in-out ${
             currentIndex === index ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -44,7 +44,7 @@ function SlidePage() {
         </div>
       ))}
 
-      <div className="absolute bottom-[1px] left-1/2 transform -translate-x-1/2 flex flex-col items-center space-y-2">
+      <div className="absolute md:bottom-[1px] bottom-[-20px] left-1/2 transform -translate-x-1/2 flex flex-col items-center space-y-2">
         <div className="text-center mt-4">
           <h1 className="text-black font-bold text-[24px]">{texts[currentIndex]}</h1>
           <p className="text-[#69ABE0]">{HouseLink[currentIndex]}</p>

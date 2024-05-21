@@ -13,7 +13,11 @@ export default {
       backgroundImage: {
         'hero-bg': "url('./assets/bgHero.png')",
         'about-bg':"url('./assets/bg-about.png')",
-        'mission-bg':"url('./assets/mission-bg.png')"
+        'mission-bg':"url('./assets/mission-bg.png')",
+        'banner-bg':"url('./assets/bg-banner.png')",
+      },
+      textColor:{
+        'blue': "#69ABE0"
       }
     },
   },
