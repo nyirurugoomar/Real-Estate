@@ -15,9 +15,11 @@ export default {
         'about-bg':"url('./assets/bg-about.png')",
         'mission-bg':"url('./assets/mission-bg.png')",
         'banner-bg':"url('./assets/bg-banner.png')",
+        
       },
       textColor:{
-        'blue': "#69ABE0"
+        'blue': "#69ABE0",
+        
       }
     },
   },

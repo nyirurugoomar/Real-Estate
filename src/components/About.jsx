@@ -5,7 +5,7 @@ import image2 from '../assets/photo2.png'
 function About() {
   return (
     <div className='w-full'>
-       <div className='grid grid-cols-1 lg:grid-cols-2  md:gap-y-0 gap-y-20 px-4  text-black'>
+       <div className='grid grid-cols-1 lg:grid-cols-2  md:gap-y-0 gap-y-20 px-4  text-black bg-white'>
         <div>
           <img src={image1} alt="" />
         </div>
