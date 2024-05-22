@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/LOGO.png'
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -9,8 +10,13 @@ function Header() {
          <img src={logo} className='h-[100px]  w-[100px] ' alt="" />
        </div>
        <div className='flex md:gap-8 gap-2 text-black mt-10 md:w-3/5 w-3/5 '>
-        <ul>Home</ul>
-        <ul>Our Services</ul>
+       <NavLink  to='/' >
+         <ul className='cursor-pointer'>Home</ul>
+        </NavLink>
+        <NavLink  to='/services' >
+         <ul className='cursor-pointer'>Our Services</ul>
+        </NavLink>
+        
         <ul>Our Portfolio</ul>
         <ul>About Us</ul>
        </div>
