@@ -6,10 +6,13 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'rajdhani': ['Rajdhani", sans-serif'],
+      'rajdhani': ['Rajdhani", "sans-serif"'],
       
     },
     extend: {
+      opacity: {
+        '50': '.50',
+      },
       backgroundImage: {
         'hero-bg': "url('./assets/bgHero.png')",
         'about-bg':"url('./assets/bg-about.png')",

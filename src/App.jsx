@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About'
 import Banner from './components/Banner'
+import Contact from './components/Contact'
 import FAQ from './components/FAQ'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -18,6 +19,7 @@ function App() {
       <SlidePage/>
       <Banner/>
       <FAQ/>
+      <Contact/>
     </>
   )
 }
