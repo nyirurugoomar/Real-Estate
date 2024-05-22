@@ -3,6 +3,7 @@ import About from './components/About'
 import Banner from './components/Banner'
 import Contact from './components/Contact'
 import FAQ from './components/FAQ'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import SlidePage from './components/SlidePage'
@@ -20,6 +21,7 @@ function App() {
       <Banner/>
       <FAQ/>
       <Contact/>
+      <Footer/>
     </>
   )
 }

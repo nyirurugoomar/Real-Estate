@@ -29,6 +29,9 @@ function SlidePage() {
 
   return (
     <div className="relative w-full md:h-screen h-[273px] overflow-hidden mt-10 mx-2 ">
+      <div className="text-center">
+        <h1 className="text-[50px] font-bold font-rajdhani uppercase">portfolio</h1>
+      </div>
       {images.map((image, index) => (
         <div
           key={index}

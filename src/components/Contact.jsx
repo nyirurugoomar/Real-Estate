@@ -70,7 +70,7 @@ function Contact() {
               </div>
              
             </form>
-            <button className="bg-[#3771C1] text-white px-64  justify-center">
+            <button className="bg-[#3771C1] text-white   justify-center">
             Send Email
             </button>
           </div>
