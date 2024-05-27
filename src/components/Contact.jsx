@@ -3,20 +3,20 @@ import image1 from "../assets/contact-photo.png";
 
 function Contact() {
   return (
-    <div className="w-full p-20 bg-white">
-      <div className="text-center justify-center mb-20">
+    <div className="w-full px-4 bg-white md:pb-20 pb-20">
+      <div className="text-center justify-center md:mb-20 pt-20">
         <h4 className="font-thin text-[20px] font-rajdhani">Contact</h4>
         <h1 className="text-[50px] font-bold font-rajdhani">Book A CALL</h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2  md:gap-y-0 gap-y-20 px-4  text-black bg-white">
+      <div className="grid grid-cols-1 lg:grid-cols-2  md:gap-y-0 gap-y-20   text-black bg-white ">
         <div>
-          <img className="h-[699px]" src={image1} alt="" />
+          <img className="md:h-[699px] h-[495px] md:w-[607px] w-[475px] " src={image1} alt="" />
         </div>
         <div className="md:p-10 text-start  ">
-          <h1 className="font-rajdhani text-[32px] font-semibold tracking-wider">
+          <h1 className="font-rajdhani md:text-[32px] text-[21px] font-semibold md:tracking-wider">
             GET IN TOUCH WITH OUR TEAM
           </h1>
-          <p className="text-[17px] font-rajdhani  text-black/50">
+          <p className="md:text-[17px] text-[11px] text-center font-rajdhani  text-black/50">
             Contact our team to discuss how we can assist you in achieving your
             investment goals.
           </p>
@@ -63,7 +63,7 @@ function Contact() {
                 <label className="block text-gray-700">Message</label>
                 <textarea
                   name="message"
-                  className="w-[550px] px-3 py-2  rounded-[10px] focus:outline-none focus:ring-2 focus:ring-blue-500 bg-[#F7F7F7]"
+                  className="md:w-[630px] w-[310px] px-3 py-2  rounded-[10px]  focus:outline-none focus:ring-2 focus:ring-blue-500 bg-yellow-300"
                   placeholder="Message"
                   rows="4"
                 ></textarea>
