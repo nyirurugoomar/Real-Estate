@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import data from './utils/Strategies.json';
+import Bounce from 'react-reveal/Bounce';
 
 function Strategies() {
   return (
@@ -9,7 +10,8 @@ function Strategies() {
       
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16 px-4  text-black'>
         {data.map((strategy, index) => (
-          <div key={index} className='bg-white rounded-xl shadow-lg p-14'>
+          <Bounce up>
+            <div key={index} className='bg-white rounded-xl shadow-lg p-14'>
             <div className='text-center'>
               <div className='flex justify-center mb-4'>
                 <img className='' src={strategy.icon} alt="" />
@@ -19,6 +21,8 @@ function Strategies() {
               <p className=' mt-4 text-[#69ABE0] text-[14px] font-rajdhani font-bold'>Read me...</p>
             </div>
           </div>
+          </Bounce>
+          
         ))}
       </div>
     </div>

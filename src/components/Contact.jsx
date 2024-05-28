@@ -1,6 +1,6 @@
 import React from "react";
 import image1 from "../assets/contact-photo.png";
-
+import Fade from 'react-reveal/Fade';
 function Contact() {
   return (
     <div className="w-full px-4 bg-white md:pb-20 pb-20">
@@ -9,10 +9,14 @@ function Contact() {
         <h1 className="text-[50px] font-bold font-rajdhani">Book A CALL</h1>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2  md:gap-y-0 gap-y-20   text-black bg-white ">
+        <Fade left>
         <div>
           <img className="md:h-[699px] h-[495px] md:w-[607px] w-[475px] " src={image1} alt="" />
         </div>
-        <div className="md:p-10 text-start  ">
+        </Fade>
+        
+        <Fade right>
+          <div className="md:p-10 text-start  ">
           <h1 className="font-rajdhani md:text-[32px] text-[21px] font-semibold md:tracking-wider">
             GET IN TOUCH WITH OUR TEAM
           </h1>
@@ -75,6 +79,8 @@ function Contact() {
             </button>
           </div>
         </div>
+        </Fade>
+        
       </div>
     </div>
   );
