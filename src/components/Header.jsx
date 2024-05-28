@@ -7,7 +7,9 @@ function Header() {
     <div className='w-full h-full bg-white '>
        <div className='flex  justify-evenly '>
        <div className='w-3/10'>
-         <img src={logo} className='h-[100px]  w-[100px] ' alt="" />
+       <NavLink  to='/' >
+         <img src={logo} className='h-[100px]  w-[100px] cursor-pointer ' alt="" />
+         </NavLink>
        </div>
        <div className='flex md:gap-8 gap-2 text-black mt-10 md:w-3/5 w-3/5 '>
        <NavLink  to='/' >

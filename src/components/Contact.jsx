@@ -1,6 +1,7 @@
 import React from "react";
 import image1 from "../assets/contact-photo.png";
 import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 function Contact() {
   return (
     <div className="w-full px-4 bg-white md:pb-20 pb-20">
