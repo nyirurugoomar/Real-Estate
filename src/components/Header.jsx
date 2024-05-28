@@ -17,12 +17,19 @@ function Header() {
          <ul className='cursor-pointer'>Our Services</ul>
         </NavLink>
         
-        <ul>Our Portfolio</ul>
+        
+        <NavLink  to='/OurPortfolio' >
+          <ul className='cursor-pointer'>Our Portfolio</ul>
+        </NavLink>
+        
         <ul>About Us</ul>
        </div>
-       <div className=''>
-        <button className='bg-[#69ABE0] text-white p-2 rounded-[5px] mt-8'>BOOK A CALL</button>
+       <NavLink  to='/BookCall' >
+       <div className='cursor-pointer'>
+        <button className='bg-[#69ABE0] hover:bg-sky-700 text-white p-2 rounded-[5px] mt-8'>BOOK A CALL</button>
        </div>
+       </NavLink>
+       
        </div>
     </div>
   )

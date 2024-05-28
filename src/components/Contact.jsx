@@ -16,7 +16,7 @@ function Contact() {
           <h1 className="font-rajdhani md:text-[32px] text-[21px] font-semibold md:tracking-wider">
             GET IN TOUCH WITH OUR TEAM
           </h1>
-          <p className="md:text-[17px] text-[11px] text-center font-rajdhani  text-black/50">
+          <p className="md:text-[17px] text-[11px] md:text-start text-center font-rajdhani  text-black/50 md:w-[532px]">
             Contact our team to discuss how we can assist you in achieving your
             investment goals.
           </p>
@@ -63,7 +63,7 @@ function Contact() {
                 <label className="block text-gray-700">Message</label>
                 <textarea
                   name="message"
-                  className="md:w-[630px] w-[310px] px-3 py-2  rounded-[10px]  focus:outline-none focus:ring-2 focus:ring-blue-500 bg-yellow-300"
+                  className="md:w-[630px] w-[310px] px-3 py-2  rounded-[10px]  focus:outline-none focus:ring-2 focus:ring-blue-500 bg-[#F7F7F7]"
                   placeholder="Message"
                   rows="4"
                 ></textarea>
