@@ -21,8 +21,10 @@ function Header() {
         <NavLink  to='/OurPortfolio' >
           <ul className='cursor-pointer'>Our Portfolio</ul>
         </NavLink>
+        <NavLink  to='/AboutUs' >
+          <ul className='cursor-pointer'>About Us</ul>
+        </NavLink>
         
-        <ul>About Us</ul>
        </div>
        <NavLink  to='/BookCall' >
        <div className='cursor-pointer'>

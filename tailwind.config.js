@@ -18,6 +18,7 @@ export default {
         'about-bg':"url('./assets/bg-about.png')",
         'mission-bg':"url('./assets/mission-bg.png')",
         'banner-bg':"url('./assets/bg-banner.png')",
+        'about-banner-bg':"url('./assets/about-hero.png')"
         
       },
       textColor:{

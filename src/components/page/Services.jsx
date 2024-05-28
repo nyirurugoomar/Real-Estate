@@ -1,5 +1,7 @@
 import React from 'react';
 import joinPhoto from '../page/image/photo-services.png';
+import imageEquity from '../page/image/Rectangle 363.png';
+import imagePrivate from '../page/image/imagePrivate.png';
 
 function Services() {
   return (
@@ -20,14 +22,14 @@ function Services() {
             </ul>
           </div>
         </div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center p-4 md:p-8 lg:p-16 max-w-full lg:max-w-[641px'>
           <img className='max-w-full h-auto' src={joinPhoto} alt="Joint Ventures" />
         </div>
       </div>
 
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 mt-10 mb-10'>
         <div className='flex justify-center'>
-          <img className='max-w-full h-auto' src={joinPhoto} alt="Equity Investments" />
+          <img className='max-w-full h-auto' src={imageEquity} alt="Equity Investments" />
         </div>
         <div className='p-4 md:p-8 lg:p-16 max-w-full lg:max-w-[641px] bg-[#3771C1] text-white'>
           <h2 className='text-white font-rajdhani text-3xl md:text-4xl lg:text-5xl text-center'>Equity Investments</h2>
@@ -55,8 +57,8 @@ function Services() {
             </ul>
           </div>
         </div>
-        <div className='flex justify-center'>
-          <img className='max-w-full h-auto' src={joinPhoto} alt="Private Lending" />
+        <div className='flex justify-center p-4 md:p-8 lg:p-16 max-w-full lg:max-w-[641px]'>
+          <img className='max-w-full h-auto' src={imagePrivate} alt="Private Lending" />
         </div>
       </div>
     </div>
