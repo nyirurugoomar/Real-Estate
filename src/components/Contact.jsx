@@ -73,11 +73,13 @@ function Contact() {
                   rows="4"
                 ></textarea>
               </div>
-             
             </form>
-            <button className="bg-[#3771C1] text-white   justify-center">
-            Send Email
-            </button>
+            <div className="flex justify-center">
+                <button className="bg-[#3771C1] text-white font-bold text-[20px] text-center p-4 rounded md:px-60">
+                Send Email
+                </button>
+              </div>
+            
           </div>
         </div>
         </Fade>
