@@ -8,29 +8,29 @@ function Header() {
        <div className='flex  justify-evenly '>
        <div className='w-3/10'>
        <NavLink  to='/' >
-         <img src={logo} className='h-[100px]  w-[100px] cursor-pointer ' alt="" />
+         <img src={logo} className='md:h-[100px] h-[50px]  md:w-[100px] w-[50px] cursor-pointer ' alt="" />
          </NavLink>
        </div>
-       <div className='flex md:gap-8 gap-2 text-black mt-10 md:w-3/5 w-3/5 '>
+       <div className='flex md:gap-8 gap-2 text-black md:mt-10 mt-6 md:w-3/5 w-3/5 '>
        <NavLink  to='/' >
-         <ul className='cursor-pointer'>Home</ul>
+         <ul className='cursor-pointer md:text-[20px] text-[9px]'>Home</ul>
         </NavLink>
         <NavLink  to='/services' >
-         <ul className='cursor-pointer'>Our Services</ul>
+         <ul className='cursor-pointer md:text-[20px] text-[9px]'>Our Services</ul>
         </NavLink>
         
         
         <NavLink  to='/OurPortfolio' >
-          <ul className='cursor-pointer'>Our Portfolio</ul>
+          <ul className='cursor-pointer md:text-[20px] text-[9px]'>Our Portfolio</ul>
         </NavLink>
         <NavLink  to='/AboutUs' >
-          <ul className='cursor-pointer'>About Us</ul>
+          <ul className='cursor-pointer md:text-[20px] text-[9px]'>About Us</ul>
         </NavLink>
         
        </div>
        <NavLink  to='/BookCall' >
        <div className='cursor-pointer'>
-        <button className='bg-[#69ABE0] hover:bg-sky-700 text-white p-2 rounded-[5px] mt-8'>BOOK A CALL</button>
+        <button className='bg-[#69ABE0] hover:bg-sky-700 text-white md:p-2 p-2 rounded-[5px] md:mt-8 mt-4 md:text-[15px] text-[10px]'>BOOK A CALL</button>
        </div>
        </NavLink>
        
