@@ -13,22 +13,25 @@ function Header() {
        </div>
        <div className='flex md:gap-8 gap-2 text-black md:mt-10 mt-6 md:w-3/5 w-3/5 '>
        <NavLink  to='/' >
-         <ul className='cursor-pointer md:text-[20px] text-[9px]'>Home</ul>
+         <ul className='cursor-pointer md:text-[17px] text-[7px]'>Home</ul>
         </NavLink>
         <NavLink  to='/services' >
-         <ul className='cursor-pointer md:text-[20px] text-[9px]'>Our Services</ul>
+         <ul className='cursor-pointer md:text-[17px] text-[7px]'>Our Services</ul>
         </NavLink>
         
         
         <NavLink  to='/OurPortfolio' >
-          <ul className='cursor-pointer md:text-[20px] text-[9px]'>Our Portfolio</ul>
+          <ul className='cursor-pointer md:text-[17px] text-[7px]'>Our Portfolio</ul>
         </NavLink>
         <NavLink  to='/AboutUs' >
-          <ul className='cursor-pointer md:text-[20px] text-[9px]'>About Us</ul>
+          <ul className='cursor-pointer md:text-[17px] text-[7px]'>About Us</ul>
+        </NavLink>
+        <NavLink  to='/BookCall' >
+          <ul className='cursor-pointer md:text-[17px] text-[7px]'>Contact us</ul>
         </NavLink>
         
        </div>
-       <NavLink  to='/BookCall' >
+       <NavLink  to='/' >
        <div className='cursor-pointer'>
         <button className='bg-[#69ABE0] hover:bg-sky-700 text-white md:p-2 p-2 rounded-[5px] md:mt-8 mt-4 md:text-[15px] text-[10px]'>BOOK A CALL</button>
        </div>
