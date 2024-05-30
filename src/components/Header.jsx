@@ -26,12 +26,12 @@ function Header() {
         <NavLink  to='/AboutUs' >
           <ul className='cursor-pointer md:text-[17px] text-[7px]'>About Us</ul>
         </NavLink>
-        <NavLink  to='/BookCall' >
+        <NavLink  to='/ContactUs' >
           <ul className='cursor-pointer md:text-[17px] text-[7px]'>Contact us</ul>
         </NavLink>
         
        </div>
-       <NavLink  to='/' >
+       <NavLink  to='/BookCall' >
        <div className='cursor-pointer'>
         <button className='bg-[#69ABE0] hover:bg-sky-700 text-white md:p-2 p-2 rounded-[5px] md:mt-8 mt-4 md:text-[15px] text-[10px]'>BOOK A CALL</button>
        </div>

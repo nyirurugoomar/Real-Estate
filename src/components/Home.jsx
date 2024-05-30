@@ -6,12 +6,12 @@ import SlidePage from './SlidePage'
 import Banner from './Banner'
 import FAQ from './FAQ'
 import Contact from './Contact'
-import Calendal from './Calendal'
+
 
 function Home() {
   return (
     <>
-    <Calendal/>
+    
       <Hero/>
       <Strategies/>
       <About/>
