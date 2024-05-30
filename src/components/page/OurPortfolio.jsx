@@ -1,8 +1,14 @@
 import React from 'react'
 
+import Card from './Card'
+
+
 function OurPortfolio() {
   return (
-    <div>OurPortfolio</div>
+    <>
+     <Card/>
+    </>
+    
   )
 }
 

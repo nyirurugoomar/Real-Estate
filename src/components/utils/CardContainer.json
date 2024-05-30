@@ -1,0 +1,47 @@
+[
+    {
+        "image_url": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SE9URUxTfGVufDB8fDB8fHww",
+        "title": "Sunny Loft with Spectacular City Views",
+        "description": "Enjoy stunning panoramic views of the city skyline from this bright and airy loft apartment. Located in the heart of downtown, you'll be steps away from trendy cafes, boutiques, and cultural attractions."
+      },
+      {
+        "image_url": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SE9URUxTfGVufDB8fDB8fHww",
+        "title": "Secluded Cabin Retreat in the Woods",
+      "description": "Escape the hustle and bustle of city life and unwind in this cozy cabin nestled in the tranquil woods. Perfect for nature lovers, you'll have access to hiking trails, wildlife sightings, and starlit nights by the firepit."
+      },
+      {
+        "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SE9URUxTfGVufDB8fDB8fHww",
+        "title": "Charming Cottage by the Sea",
+      "description": "Indulge in coastal living at this charming cottage just minutes from the beach. With its shabby-chic decor and private garden, it's the perfect romantic getaway for couples seeking relaxation and romance."
+      },
+      {
+        "image_url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SG91c2VzfGVufDB8fDB8fHww",
+        "title": "Modern Studio in Historic District",
+      "description": "Immerse yourself in the rich history of the city while staying in this sleek and stylish studio apartment. Located in a historic district, you'll be surrounded by architectural landmarks, museums, and artisanal shops."
+      },
+      {
+        "image_url": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SG91c2VzfGVufDB8fDB8fHww",
+        "title": "Rustic Farmhouse with Mountain Views",
+      "description": "Experience country living at its finest in this rustic farmhouse overlooking rolling hills and majestic mountains. With its cozy interior and sprawling grounds, it's the ideal retreat for families and groups seeking tranquility."
+      },
+      {
+        "image_url": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "title": "Urban Oasis with Private Rooftop Terrace",
+      "description": "Escape the urban hustle and retreat to this hidden gem with a private rooftop terrace. Whether you're lounging in the hammock or dining al fresco under the stars, you'll feel worlds away from the city below."
+      },
+      {
+        "image_url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "title": "Quaint Bungalow in Historic Village",
+      "description": "Step back in time and stay in this quaint bungalow located in a charming historic village. With its vintage furnishings and picturesque surroundings, it's the perfect setting for a nostalgic getaway."
+      },
+      {
+        "image_url": "https://images.unsplash.com/photo-1619216083420-6e54b895f730?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "title": "Elegant Townhouse in Exclusive Neighborhood",
+      "description": "Live like a local in this elegant townhouse situated in an exclusive neighborhood. With its refined interiors and upscale amenities, you'll enjoy a luxurious stay within walking distance of fine dining and boutique shops."
+      },
+      {
+        "image_url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "title": "Contemporary Loft with Industrial Charm",
+      "description": "Experience loft living at its finest in this contemporary space with industrial-chic decor. Located in a vibrant neighborhood known for its art galleries and hip eateries, you'll be at the epicenter of urban culture."
+      }
+]

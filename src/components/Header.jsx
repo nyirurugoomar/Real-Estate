@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <div className='w-full h-full bg-white '>
+    <div className='w-full h-full bg-white border-b-[1px] border-black/70 '>
        <div className='flex  justify-evenly '>
        <div className='w-3/10'>
        <NavLink  to='/' >
